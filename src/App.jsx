@@ -2,7 +2,7 @@ import React, { useMemo, useState } from "react";
 
 // ========= 活動設定（你已確定） =========
 const EVENT = {
-  title: "David 哥 65 歲壽宴｜光影與詩的夜晚",
+  title: "David 哥 65 歲壽宴｜光影與詩的歲月",
   date: "2026/02/07（六）",
   seatTime: "17:30 入座",
   dinnerTime: "18:00 準時開飯",
@@ -207,7 +207,7 @@ export default function App() {
 
             <div className="k">備註</div>
             <div className="v">
-              不必準備禮物。為了順利安排座位與餐點，請在下方 RSVP 填寫葷素、禁忌與是否不喝酒（僅用於安排）。
+              不一定需要準備禮物，人到心意到。為了順利安排座位與餐點，請在下方 RSVP 填寫葷素、禁忌與是否不喝酒（僅用於安排）。
             </div>
           </div>
         </section>
@@ -260,8 +260,6 @@ export default function App() {
                   onChange={(e) => setRsvp({ ...rsvp, attendance: e.target.value })}
                 >
                   <option value="出席">出席</option>
-                  <option value="可能出席">可能出席</option>
-                  <option value="無法出席">無法出席</option>
                 </select>
               </label>
 
@@ -345,9 +343,9 @@ export default function App() {
         <section className="card">
           <h2>小提醒</h2>
           <ul className="tips">
-            <li>17:30 入座，18:00 準時開飯；請盡量提前抵達。</li>
-            <li>你填的葷素、禁忌與是否不喝酒，僅用於排座位與餐點安排。</li>
-            <li>如果臨時變動（人數/飲食），直接聯絡主辦人更新即可。</li>
+            <li>17:30 入座，18:00 準時開飯；餐廳 20:30 休息，請盡量提前抵達。</li>
+            <li>大家填的葷素、禁忌與是否不喝酒，僅用於排座位與餐點安排。</li>
+            <li>如果臨時變動（人數/飲食），直接聯絡Rockie更新即可。</li>
           </ul>
         </section>
       </main>
